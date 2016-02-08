@@ -18,7 +18,7 @@ public class RentManager
 	public static void main(String[] args)
 	{
 		// customer
-		Person customer_1 = new Person("", "", Gender.MALE, 56544);
+		Person customer_1 = new Person("Budai", "Dani", Gender.MALE, 56544);
 
 		// movies
 		Person hanks = new Person("Tom", "Hanks", Gender.MALE, 5000);
@@ -70,12 +70,25 @@ public class RentManager
 		buyables.add((Game) diablo);
 		buyables.add((Game) braid);
 
+		System.out.println("MOVIES:");
+		System.out.println();
 		System.out.println(forrest_gump);
+		System.out.println();
 		System.out.println(deadpool);
+		System.out.println();
+		System.out.println("GAMES:");
+		System.out.println();
 		System.out.println(diablo);
+		System.out.println();
 		System.out.println(braid);
+		System.out.println();
+		System.out.println("BOOKS:");
+		System.out.println();
 		System.out.println(lotr);
+		System.out.println();
 		System.out.println(lotrtt);
+		System.out.println();
+		System.out.println("BUYABLE STUFF PRICE:");
 		System.out.println(buyableObjects(buyables));
 	}
 }
