@@ -26,7 +26,7 @@ public class RentManager
 		List<Person> cast_forest = new ArrayList<Person>();
 		cast_forest.add(hanks);
 		cast_forest.add(field);
-		Product forrest_gump = new Movie("", "Forrest Gump", customer_1, Genre.DRAMA, 200, 8.8, cast_forest, 564);
+		Product forrest_gump = new Movie("", "Forrest Gump", customer_1, Genre.DRAMA, 200, 8.8, cast_forest, 75457);
 		forrest_gump.setId(IdGenerator.idGenerator(forrest_gump));
 
 		Person reynolds = new Person("Ryan", "Reynolds", Gender.MALE, 546544);
@@ -34,7 +34,7 @@ public class RentManager
 		List<Person> cast_deadpool = new ArrayList<Person>();
 		cast_deadpool.add(reynolds);
 		cast_deadpool.add(miller);
-		Product deadpool = new Movie("", "Deadpool", customer_1, Genre.DRAMA, 200, 8.8, cast_deadpool, 564);
+		Product deadpool = new Movie("", "Deadpool", customer_1, Genre.DRAMA, 200, 8.8, cast_deadpool, 564874);
 		deadpool.setId(IdGenerator.idGenerator(deadpool));
 
 		// games
@@ -45,7 +45,7 @@ public class RentManager
 		diablo_staff.add(john);
 		diablo_staff.add(jane);
 		diablo_staff.add(jack);
-		Product diablo = new Game("", "Diablo III", customer_1, true, diablo_staff, 5644);
+		Product diablo = new Game("", "Diablo III", customer_1, true, diablo_staff, 44547);
 		diablo.setId(IdGenerator.idGenerator(diablo));
 
 		Person max = new Person("Max", "Four", Gender.MALE, 98974);
